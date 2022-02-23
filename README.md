@@ -1,2 +1,2 @@
-# tez-tax-package
+# teztaxr
 Tezos tax tracking package.
