@@ -40,7 +40,7 @@ tzkt_operations <- function(address, level = NA, limit = NA,
 #' # Fetch data for a given transaction
 #' tzkt_operations_hash("onujxsRLwcYZuKVTKG1JLwFEe9EWBSPdiB6pRCg5WcH6NpXdRxA")
 #' @export
-tzkt_operations_hash <- function(hash, quote="usd", base="https://api.tzkt.io/") {
+tzkt_operations_hash <- function(hash, quote = "usd", base = "https://api.tzkt.io/") {
   # Get operations by hash, https://api.tzkt.io/#operation/Operations_GetByHash
   sfx <- paste0("v1/operations/", hash, "?quote=", quote)
   url <- paste0(base, sfx)
@@ -55,7 +55,7 @@ tzkt_operations_hash <- function(hash, quote="usd", base="https://api.tzkt.io/")
 #' # https://www.fxhash.xyz/generative/slug/in_vitro
 #' tzkt_bigmap(70072, 5577)
 #' @export
-tzkt_bigmap <- function(id, key, base="https://api.tzkt.io/") {
+tzkt_bigmap <- function(id, key, base = "https://api.tzkt.io/") {
   # Get bigmap by ID, https://api.tzkt.io/#operation/BigMaps_GetBigMapById
   sfx <- paste0("v1/bigmaps/", id, "/keys/", key)
   url <- paste0(base, sfx)

@@ -29,7 +29,7 @@ devtools::install_github("datcsv/teztaxr")
 
 ## Example
 
-Some example usage
+Example usage:
 
 ``` r
 library(tidyverse)
