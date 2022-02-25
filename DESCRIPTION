@@ -3,7 +3,7 @@ Title: Tax calculations for transactions on the Tezos blockchain
 Version: 0.0.0.9000
 Authors@R: 
   c(
-    person("datcsv", , , "datcsv@mailinator.com", role = c("aut", "cre")),
+    person("datcsv", , , "datcsv@gmail.com", role = c("aut", "cre")),
     person("Claus", "Wilke", , , role = "aut")
     )
 Description: Calculates gain/loss etc for all transactions of a set of
